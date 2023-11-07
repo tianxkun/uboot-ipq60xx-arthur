@@ -25,6 +25,4 @@ jobs:
 
     - name: Run distcheck
       run: make distcheck
-    git clone https://github.com/tianxkun/uboot-ipq60xx-arthur
-    cd uboot-ipq60xx-build/
     ./build.sh
