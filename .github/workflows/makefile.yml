@@ -10,7 +10,7 @@ jobs:
   build:
 
     runs-on: ubuntu-latest
-
+  ./build.sh
     steps:
     - uses: actions/checkout@v3
 
@@ -25,4 +25,4 @@ jobs:
 
     - name: Run distcheck
       run: make distcheck
-    ./build.sh
+    
